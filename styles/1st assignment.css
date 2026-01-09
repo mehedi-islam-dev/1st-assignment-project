@@ -39,14 +39,76 @@
     font-weight: 600;
     margin-right: 120px;
     color: #FFFFFF;
+    cursor: pointer;
  }
  .hero{
     height: 674px;
-   background-image: url("hero-bg.png");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 70px 120px 134px 120px;
+    padding: 70px 120px 134px 120px;
  }
+ .hero-content {
+  max-width: 1340px;
+  text-align: center;
+  z-index: 1;
+  margin: 115.5px 120px 179.5px 120px;
+ }
+ .pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  color: #2f855a;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.pill-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #2f855a;
+  border-radius: 50%;
+}
+.hero-content h1 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+  .hero-content h1 span {
+  color: #2f855a;
+}
+.hero-content p {
+  max-width: 720px;
+  margin: 0 auto 40px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #d1d5db;
+}
+
+/* Buttons */
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn1 {
+  background-color: #2f855a;
+  color: #ffffff;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn2 {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
