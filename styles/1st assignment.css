@@ -27,6 +27,9 @@
      line-height: 152%;
      font-weight: 500;
  }
+  nav .items a:hover{
+    background-color: aquamarine;
+  }
  .logo {
     padding: 16px 0px 16px 120px;
  }
@@ -111,4 +114,53 @@
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
+
+}
+.btn:hover,
+.btn1:hover,
+.btn2:hover {
+    background-color: cyan;
+}
+.second-brain{
+    display: flex;
+    padding: 120px;
+    gap: 60px;
+}
+.second-brain-description{
+    margin:102px 0px;
+}
+.second-brain-description h4{
+    color:#469165;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+gap:16px;
+}
+.second-brain-description h1{
+    color: #001931;
+    font-size:48px;
+margin-bottom: 16px;
+}
+.second-brain-description p{
+    color: #627382;
+    font-size:16px;
+    line-height: 20px;
+    max-width:700px;
+    height: 60px;
+    margin-bottom: 40px;
+}
+.second-brain-description ul {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #001931;
+  margin: 0px;
+padding: 0px;
+}
+.second-brain-description ul li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
 }
